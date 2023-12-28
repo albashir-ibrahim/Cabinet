@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Albashir Ishaq Ibrahim">
     <title>Cabinet Hub</title>
     <link rel="icon" href="favicon.png" type="image">
   
@@ -14,7 +15,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- Bootsrapt css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -41,17 +42,22 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img class="lang-img" src="images/language.png" alt=""></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                  <li><a class="dropdown-item" href="#">Hausa</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Partnerships</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Members</a>
+                <a class="nav-link" href="#partnerships">Partnerships</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contacts">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -117,7 +123,7 @@
       </section>
 
       <!-- Digital SKills training section -->
-      <section class="bg-success p-5 text-light">
+      <section class="bg-success pb-4 p-md-5 text-light">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
@@ -133,7 +139,7 @@
       </section>
 
       <!-- Enterpreneurship Section -->
-      <section class="p-5">
+      <section class="pt-2 pb-4 p-md-5">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
@@ -155,13 +161,14 @@
       </section>
 
       <!-- Hackathon Section -->
-      <section class="orange-section p-5 text-light">
+      <section class="orange-section pb-4 p-md-5 text-light">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
               <h3 class="fs-1">Hackathon</h3>
             <P class="lead">We organize and participate in Hackathons</P>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat facilis minus ab itaque fuga, debitis, est incidunt sit aperiam eligendi cum harum vel, ipsa illum sequi quis illo reprehenderit dolor laudantium tempora impedit nostrum. Ipsa vero quos earum, non, laboriosam laborum at impedit id, dolores pariatur excepturi similique recusandae obcaecati?</p>
+            <p>This year we participated in United Nations Economic Commision for Africa Hackathon on leveraging digital technologies for climate change and adaptation in February 2023, Niamey Niger.</p>
+            <p>Cabinet hub have eqully being organizing, hosting and facilitating worshops across Nigeria and Niger in addition to providing mentorship and learning resources to participants. these hackathons are centered around solving critical problems that our communities are facing locally around Nigeria and Niger republic.</p>
             </div>
             <div class="col-md">
               <img class="img-fluid" src="images/Hackathon.jpg" alt="">
@@ -171,25 +178,28 @@
         </div>
       </section>
 
-      <!-- Afrilabs Section -->
-      <section class=" p-5">
+      <div id="partnerships"></div>
+      <!-- Partners Section -->
+      <section class="pt-4 p-md-5">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img class="img-fluid" src="images/AfriLab.png" alt="">
+              <img class="img-fluid" src="images/partners.png" alt="">
             </div>
             <div class="col-md">
-              <h3 class="fs-1">Afrilabs</h3>
-            <P class="lead">We are partners of Afrilabs</P>
-            <p>AfriLabs is a network organisation supporting Innovation Centers across African countries since 2011, founded upon the mission of building a community around the rapidly emerging technology hubs in Africa. 
-              These hubs serve as centers that provide support to African entrepreneurs, innovators, developers, and youths. By providing physical co-working and dedicated office spaces, as well as inclusive training and business, legal and financial support, we play an active role in helping to raise successful entrepreneurs who will create jobs and develop innovative solutions to African problems.</p>
+              <h3 class="fs-1">Partners & Networks</h3>
+            <P class="lead">Meet our lead Partner: Bank Of Africa Foundation</P>
+            <p>Through our partnership with Bank Of Africa Foundation we are improving the lives of vulnerable youth by providing them with access to quality education and network through digital skills empowerment.</p>
+            <p><b>American Corner (American Space) Zinder</b> is our strategic partner in implementation of programs that improve youth participation in leadership and decision making in areas that affect their lives and communities.</p>
+            <p>We are proud members of <b>AfriLabs</b> which is a network organisation supporting Innovation Centers across African countries since 2011, founded upon the mission of building a community around the rapidly emerging technology hubs in Africa. </p>
             </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Photo Sections -->
+      <div id="projects"></div>
+    <!-- Projject Photo Sections -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
   </div>
@@ -221,6 +231,59 @@
     </div>
   </div>
 
+  <!-- Accordion -->
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item ">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Meet The CEO, Binta Moustapha
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p class="accordion-paragraph"><img class="rounded-circle ceo-image" src="images/ceo.jpg" alt="Binta"></p>
+          <p class="accordion-paragraph2">Binta is a Non Governmental Organizations Specialist with educational and professional experience in the Anglophone & Francophone West Africa. She enjoys working on girls, women and youth investment initiatives. Most of her work history have been in the classroom and the School System, which is the engine room for any community that aims to empower her citizens. These work have included: founding a Second Chance School for Married Muslim Mothers in South Eastern Nigeria; Led other Commited Members of FOMWAN Cross River State Nigeria to build a Nursery and Primary School alongside a Madrasa which caters for several families within a majority Muslim Community Insitu Christian Majority Zone for Peace building and Social Cohesion. She has brought her Experience Founding and Managing a Nonprofit Organization which promotes Science Technology Engineering & Mathematics Education through Events since 2010 to profit a Visibility Project launched in September 2019 for Nigerian Women in Tech via the 100WomenInTech Nigeria Awards & Documentation Initiative. Just afterwards in March 2020, as activities for the International Women's Day/Month Visibility Project Unveiled Awardees, the COVID19 CRISIS presented a window of opportunity to bring together Men and Women, Organizers, Participants, Partners, Mentors, Facilitators & Others for Hack The Crisis Nigeria. This foremost all-online Virtual HACKATHON ran all through March-May 2020. A passion for promoting Knowledge Transfer and Digital Transformation in the Indigenous languages spoken around the West African Sub Region has transformed into Co-Initiating a first of its kind HACKATHON targetting Hausa Language & Communities distributed around the World to build solutions which will include a long term goal for a Digital Library.</p></div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Learning Resources
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><div class="card-group">
+          <div class="card">
+            <img src="images/Dr.jpeg" class="card-img-top" alt=" ">
+            <div class="card-body">
+              <h5 class="card-title">Mme Issalak TSEMOGO</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation</p>
+              <p><a class="unique-links" href="https://drive.google.com/file/d/13LrtirDOfQXchWX2J3O-ni-2n5_VprDv/view?usp=sharing">Climate Change</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/Umar.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Umar Adam</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation.</p>
+              <p><a class="unique-links" href="https://drive.google.com/drive/folders/1E5tZaWtEthl5oW802mB8XaeRxCOlCT6Q?usp=sharing">Design Thinking Webinar</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/Albashir.jpeg" class="card-img-top" alt="Albashir Ishaq Ibrahim">
+            <div class="card-body">
+              <h5 class="card-title">Albashir Ishaq Ibrahim</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation.</p>
+              <p><a class="unique-links" href="https://drive.google.com/file/d/1s7sOwOL8OuRRt8XUphN5ih2x7oxbVFYg/view?usp=sharing">Digital Solution for climate change</a></p>
+              <p><a class="unique-links" href="https://www.youtube.com/@albashirishaqibrahim">Digital Skills Training Youtube Channel</a></p>
+            </div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="contacts"></div>
       <!-- Map & address -->
       <section id="contact" class="p-3 p-sm-5">
         <div class="container">
@@ -232,10 +295,16 @@
                             <span class="fw-bold">Address:</span> C/O American Corner EMJC Quartier Jeune Cadre Zinder
                         </li>
                         <li class="list-group-item">
-                            <span class="fw-bold">Phone:</span> +(234) 08180630948
+                            <span class="fw-bold">Phone:</span> +(227) 92288237
                         </li>
                         <li class="list-group-item">
-                            <span class="fw-bold">Email:</span> binta.moustapha2010@gmail.com
+                            <span class="fw-bold">Email:</span> asbszinder@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Facebook:</span> <a class="unique-links" href="https://www.facebook.com/profile.php?id=100051148959962&mibextid=ZbWKwL">Cabinet Hub Zinder</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Twitter:</span> <a class="unique-links" href="https://twitter.com/HubZinder?t=g0iO_7tqKjvlhplKCuSpaw&s=09">Cabinet Hub Zinder</a>
                         </li>
                     </ul>
                 </div>
